@@ -60,7 +60,7 @@ var trivia = {
         $('#game').show();
         
         //  empty last results
-        $('#results').empty();
+        $('#results').html('');
         
         // show timer
         $('#timer').text(trivia.timer);
@@ -69,6 +69,7 @@ var trivia = {
         $('#start').hide();
     
         $('#remaining-time').show();
+        $('#question').show();
         
         // ask first question
         trivia.nextQuestion();
@@ -131,7 +132,8 @@ var trivia = {
             '<p>Please play again!</p>');
             
             // hide game sction
-            $('#game').hide();
+            $('#remaining-time').hide();
+            $('#question').hide();
             
             // show start button to begin a new game
             $('#start').show();
