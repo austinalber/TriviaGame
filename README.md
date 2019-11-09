@@ -10,5 +10,5 @@
 
     * Give the option for choosing the quiz the user will be taking. Different categories will include:
 
-        Movies, Characters, Theme Parks, Actors, and History
+        * Movies, Characters, Theme Parks, Actors, and History
 
